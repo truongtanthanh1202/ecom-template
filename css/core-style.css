@@ -1357,7 +1357,7 @@ img {
   top: 0;
   left: 0;
   content: "";
-  background-color: rgba(60, 60, 60, 0.7);
+  background-color: rgba(40, 40, 40, 0.6);
   z-index: 1;
   opacity: 0;
   visibility: visible;
@@ -1379,23 +1379,29 @@ img {
 }
 .single-products-catagory .hover-content .line {
   width: 80px;
-  height: 3px;
+  height: 4px;
   background-color: #fbb710;
   display: block;
   margin-bottom: 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
 .single-products-catagory .hover-content p {
   font-size: 16px;
-  color: #6d6d6d;
+  color: #ffffff;
   line-height: 1;
   margin-bottom: 5px;
   -webkit-transition-duration: 250ms;
   transition-duration: 250ms;
+  font-weight: 500;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 .single-products-catagory .hover-content h4 {
   margin-bottom: 0;
   -webkit-transition-duration: 250ms;
   transition-duration: 250ms;
+  color: #ffffff;
+  font-weight: 600;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 .single-products-catagory:hover a::after,
 .single-products-catagory:focus a::after {
@@ -1407,6 +1413,8 @@ img {
 .single-products-catagory:focus .hover-content p,
 .single-products-catagory:focus .hover-content h4 {
   color: #fff;
+  transform: translateY(-5px);
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 /* :: 6.0 Newsletter Area CSS */
